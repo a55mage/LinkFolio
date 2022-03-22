@@ -1,0 +1,24 @@
+/*Background*/
+
+:root {
+    yellow: yellow;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.profile-pic{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 100%;
+    max-width: 150px;
+}
+
+.btn{
+    height: 50px;
+}
+
+.section-title > h5{
+    font-size: 16px;
+}
