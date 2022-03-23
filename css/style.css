@@ -10,7 +10,7 @@ body {
 
 .profile-pic{
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     border-radius: 100%;
     max-width: 150px;
 }
@@ -19,6 +19,13 @@ body {
     height: 50px;
 }
 
+.btn :hover{
+    box-shadow: black;
+}
+
 .section-title > h5{
     font-size: 16px;
+}
+
+.fab-button{
 }

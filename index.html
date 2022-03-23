@@ -20,7 +20,7 @@
   <div class="container align-content-center">
     <div class="col">
       <div class="text-center">
-        <img src="https://mdbcdn.b-cdn.net/img/logo/mdb192x192.webp" class="img-fluid profile-pic" alt="" />
+          <img src="https://mdbcdn.b-cdn.net/img/logo/mdb192x192.webp" class="img-fluid profile-pic" alt="" />
       <h3>Cane Cane</h3>
         <p class="font-weight-bold">testo di prova per vedere come esce</p>
       </div>
@@ -29,11 +29,95 @@
         <h5>Cane Cane</h5>
 
       </div>
-      <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button">Button</button>
+      <div class="d-grid gap-2 col-xxl-6 col-xl-6 col-lg-8 col-10 col-sm-12 mx-auto">
+        <button class="btn btn-primary" type="button">
+          <i class="fab fab-button fa-facebook-f"></i>
+          Button</button>
         <button class="btn btn-outline-primary" type="button">Button</button>
         <button type="button" class="btn btn-primary btn-rounded">Primary</button>
         <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Primary</button>
+        <button
+                class="btn btn-primary"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#collapseExample"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+        >
+          Button with data-mdb-target
+        </button>
+
+        <!-- Collapsed content -->
+        <div class="collapse mt-3 text-center" id="collapseExample">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+          squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+          sapiente ea proident.
+          <div class="ratio ratio-16x9">
+            <iframe
+                    src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                    title="YouTube video"
+                    allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+                    type="button"
+                    data-mdb-target="#carouselExampleCaptions"
+                    data-mdb-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+            ></button>
+            <button
+                    type="button"
+                    data-mdb-target="#carouselExampleCaptions"
+                    data-mdb-slide-to="1"
+                    aria-label="Slide 2"
+            ></button>
+            <button
+                    type="button"
+                    data-mdb-target="#carouselExampleCaptions"
+                    data-mdb-slide-to="2"
+                    aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
       </div>
     </div>
 
