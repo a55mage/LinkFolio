@@ -36,6 +36,7 @@ body {
 /*Contact information*/
 .contact-container > span{
     font-size: small;
+    margin-bottom: 15px;
 }
 
 /*Quick icon link*/
@@ -46,6 +47,20 @@ body {
 /*Buttons*/
 .btn-h50{
     height: 50px;
+}
+
+.btn-r10{
+    border-radius: 10px;
+}
+
+.left-icon-holder {
+    position:relative;
+}
+
+.btn-h50 > i{
+    position: relative;
+    right: 40%;
+    font-size: large;
 }
 
 /*Section title*/
