@@ -26,7 +26,6 @@
       </div>
 
       <div class="text-center section-title"><h5>Rounded contact info</h5></div>
-
       <div class="contact-container flex-wrap gap-2 col-xxl-6 col-xl-6 col-lg-8 col-10 col-sm-12 mx-auto d-flex justify-content-center">
         <span class="badge rounded-pill badge-primary"><i class="fas fa-envelope me-3"></i>info@example.com</span>
         <span class="badge rounded-pill badge-primary"><i class="fas fa-phone me-3"></i> + 01 234 567 88</span>
@@ -34,7 +33,6 @@
       </div>
 
       <div class="text-center section-title"><h5>Squared contact info</h5></div>
-
       <div class="contact-container flex-wrap gap-2 col-xxl-6 col-xl-6 col-lg-8 col-10 col-sm-12 mx-auto d-flex justify-content-center">
         <span class="badge badge-primary"><i class="fas fa-envelope me-3"></i>info@example.com</span>
         <span class="badge badge-primary"><i class="fas fa-phone me-3"></i> + 01 234 567 88</span>
@@ -269,11 +267,19 @@
       <div class="text-center section-title"><h5>Type of buttons</h5></div>
       <div class="d-grid gap-2 col-xxl-6 col-xl-6 col-lg-8 col-10 col-sm-12 mx-auto">
         <button class="btn btn-h50 btn-primary" type="button">Button filled</button>
-        <button class="btn btn-h50 btn-outline-primary" type="button">Button outline</button>
-        <button type="button" class="btn btn-h50 btn-primary btn-rounded">Rounded button filled</button>
-        <button type="button" class="btn btn-h50 btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Rounded button outline</button>
+        <button class="btn btn-h50 btn-outline-warning" type="button">Button outline</button>
+        <button type="button" class="btn btn-h50 btn-danger btn-r10">Semi-roundend</button>
+        <button type="button" class="btn btn-h50 btn-info btn-r10">
+          <i class="fab fa-whatsapp"></i>
+          You can place an icon here too</button>
+        <button type="button" class="btn btn-h50 btn-dark btn-rounded">Rounded button filled</button>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary btn-h50">Button group</button>
+          <button type="button" class="btn btn-success btn-h50">&</button>
+          <button type="button" class="btn btn-white btn-h50">other colors</button>
+        </div>
         <button
-                class="btn btn-h50 btn-primary"
+                class="btn btn-h50 btn-light"
                 type="button"
                 data-mdb-toggle="collapse"
                 data-mdb-target="#collapseExample"
@@ -282,7 +288,6 @@
         >
           Button with expansion
         </button>
-
         <!-- Collapsed content -->
         <div class="collapse mt-3 text-center" id="collapseExample">
           <p>This text is hidden, you can place any other type of content here</p>
@@ -354,12 +359,25 @@
           ></iframe>
         </div>
 
+        <div class="text-center section-title"><h5>Card</h5></div>
+        <div class="card bg-primary">
+          <div class="card-body">
+            <h6 class="card-title">Card title</h6>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </p>
+          </div>
+          <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="card-img-bottom" alt="Camera"/>
+        </div>
+
+
       </div>
     </div>
 
   </div>
 
-  <footer class="footer fixed-bottom bg-light text-center text-lg-start">
+  <footer class="footer sticky-top bg-light text-center text-lg-start">
     <!-- Copyright -->
     <div class="text-center p-3">
       <a href="https://mdbootstrap.com/"> © 2022 Copyright: MDBootstrap.com</a>

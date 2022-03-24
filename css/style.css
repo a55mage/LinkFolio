@@ -53,14 +53,9 @@ body {
     border-radius: 10px;
 }
 
-.left-icon-holder {
-    position:relative;
-}
-
 .btn-h50 > i{
-    position: relative;
-    right: 40%;
-    font-size: large;
+    float: left;
+    font-size: x-large;
 }
 
 /*Section title*/
@@ -73,10 +68,9 @@ body {
 }
 
 /*Footer*/
-
 .footer{
     margin-top: 10px;
-    background: dodgerblue !important;
+    background: #011c36 !important;
 }
 
 
