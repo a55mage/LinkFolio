@@ -26,12 +26,16 @@ body {
 }
 
 .side-background{
-    background-image: url("../img/blue.png");
+    background-image: url("../img/forest.jpg");
     background-color: lightblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.side-color{
+    background: #334f30;
 }
 
 .double-container{
@@ -50,7 +54,7 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 100%;
-    max-width: 35vh;
+    width: 40vh;
 }
 
 /*Contact information*/
@@ -65,6 +69,10 @@ body {
 }
 
 /*Buttons*/
+.btn{
+    position: relative;
+}
+
 .btn-h50{
     min-height: 50px;
 }
@@ -74,7 +82,10 @@ body {
 }
 
 .btn-h50 > i{
+    position: absolute;
     float: left;
+    left: 15px;
+    top: 13px;
     font-size: x-large;
 }
 
