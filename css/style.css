@@ -25,12 +25,32 @@ body {
     background-attachment: fixed;
 }
 
+.side-background{
+    background-image: url("../img/blue.png");
+    background-color: lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.double-container{
+    height: 100vh;
+}
+
 /*Profile picture*/
 .profile-pic{
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 100%;
     max-width: 120px;
+}
+
+.big-profile-pic{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    max-width: 35vh;
 }
 
 /*Contact information*/
@@ -46,7 +66,7 @@ body {
 
 /*Buttons*/
 .btn-h50{
-    height: 50px;
+    min-height: 50px;
 }
 
 .btn-r10{
