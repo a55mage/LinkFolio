@@ -5,10 +5,6 @@ Drop a ⭐ if you like it
 
 ![Logo](img/LinkfolioLogo.png)
 
-  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-
 MDB5
 Version: FREE 3.11.0
 
