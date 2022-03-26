@@ -11,16 +11,17 @@ a{
     color: white;
 }
 
-/*Background*/
+/*Whole Background*/
 body {
     background-color: lightblue;
-    background-image: url("../img/blue.png");
+    background-image: url("../img/mountains.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+/*Backgrounds for the double sided template*/
 .side-background{
     background-image: url("../img/forest.jpg");
     background-color: lightblue;
@@ -69,8 +70,8 @@ body {
     position: relative;
 }
 
-.btn-h50{
-    min-height: 50px;
+.a{
+    position: relative;
 }
 
 .btn-r10{
@@ -78,12 +79,16 @@ body {
 }
 
 /*Icon inside the button*/
-.btn-h50 > i{
+.btn-icon > i{
     position: absolute;
     float: left;
     left: 15px;
-    top: 13px;
+    top: 10px;
     font-size: x-large;
+}
+
+i{
+    font-size: large;
 }
 
 /*Section title*/
@@ -97,8 +102,12 @@ body {
 
 /*Footer*/
 .footer{
-    margin-top: 10px;
+    margin-top: 15px;
     background: #011c36 !important;
+}
+
+.spacer{
+    height: 80px;
 }
 
 
