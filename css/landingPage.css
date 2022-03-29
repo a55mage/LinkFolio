@@ -1,0 +1,10 @@
+.header{
+    margin-bottom: 25px;
+}
+
+.form-outline .form-control {
+    min-height: auto;
+    padding: 0.33em 0.75em;
+    background: transparent;
+    transition: all .2s linear;
+}
