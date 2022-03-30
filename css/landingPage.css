@@ -8,3 +8,7 @@
     background: transparent;
     transition: all .2s linear;
 }
+
+.mail-form {
+    padding-top: 20px;
+}
